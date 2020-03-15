@@ -1,0 +1,13 @@
+# Project exclude paths
+/spring-cloud-admin/target/
+/spring-cloud-admin-client/target/
+/spring-cloud-common/target/
+/spring-cloud-config/target/
+/spring-cloud-config-client/target/
+/spring-cloud-consumer/target/
+/spring-cloud-eureka/target/
+/spring-cloud-feign/target/
+/spring-cloud-provider/target/
+/spring-cloud-provider-two/target/
+/spring-cloud-zipkin/target/
+/spring-cloud-zuul/target/

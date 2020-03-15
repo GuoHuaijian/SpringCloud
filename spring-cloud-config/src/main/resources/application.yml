@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/GuoHuaijian/spring-cloud-config
+          username: 564559079@qq.com
+          password: jian564559079
+  zipkin:
+    base-url: http://localhost:8768
+
+server:
+  port: 8766
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

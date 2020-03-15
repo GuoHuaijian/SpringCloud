@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudprovider" />
+        <module name="springcloudconfig" />
+        <module name="springcloudfeign" />
+        <module name="springcloudzuul" />
+        <module name="springcloudconfigclient" />
+        <module name="springcloudeureka" />
+        <module name="springcloudconsumer" />
+        <module name="springcloudadmin" />
+        <module name="springcloudadminclient" />
+        <module name="springcloudprovidertwo" />
+        <module name="springcloudzipkin" />
+        <module name="springcloudcommon" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloudadmin" options="-parameters" />
+      <module name="springcloudadminclient" options="-parameters" />
+      <module name="springcloudcommon" options="-parameters" />
+      <module name="springcloudconfig" options="-parameters" />
+      <module name="springcloudconfigclient" options="-parameters" />
+      <module name="springcloudconsumer" options="-parameters" />
+      <module name="springcloudeureka" options="-parameters" />
+      <module name="springcloudfeign" options="-parameters" />
+      <module name="springcloudprovider" options="-parameters" />
+      <module name="springcloudprovidertwo" options="-parameters" />
+      <module name="springcloudzipkin" options="-parameters" />
+      <module name="springcloudzuul" options="-parameters" />
+    </option>
+  </component>
+</project>
